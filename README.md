@@ -58,6 +58,9 @@ Y ejecutar el comando:
 (Siempre dentro de nuestro contenedor de software - Comando N°2)  
 Tenemos que ir a la carpeta donde se encuentra el archivo *manage.py*  
 
+### antes poner esto:
+**$**  'python manage.py migrate '
+
 **$** `python manage.py runserver 0.0.0.0:8000`  
 
 ### 7. Detener la ejecución de nuestro contenedor y nuestro servidor
